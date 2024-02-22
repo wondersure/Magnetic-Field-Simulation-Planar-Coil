@@ -5,11 +5,11 @@ clear;
 start_x = -3;       % x轴起始位置 单位厘米
 start_z = 0.1;      % z轴起始位置 单位厘米
 end_x = 3;          % 
-end_z = 3;
+end_z = 5;
 
 
 xn = 20;
-zn = 20;
+zn = end_z*10;
 xRange = linspace( start_x, end_x, xn ); 
 zRange = linspace( start_z, end_z, zn );
 [X, Z] = meshgrid(xRange, zRange);
@@ -36,8 +36,6 @@ xlim([1,xn]);
 ylim([1,zn]);
 
 xticks(linspace(1, xn, 5));  % 指定刻度位置
-xticklabels({'-50', '-25', '0', '25', '50'});  % 自定义刻度标签
-xticks(linspace(1, zn, 5));  % 指定刻度位置
 xticklabels({'-50', '-25', '0', '25', '50'});  % 自定义刻度标签
 
 xlabel('Radial Distance (mm)','FontSize',13);
