@@ -10,7 +10,7 @@
 matlab代码包括一个函数文件和一个使用例子，python版本中函数和使用的例程写在一个文件里，代码很简单，例子中展示的都是固定在坐标中心朝上的线圈在xz平面产生的场强
 
 ****
-**This tool calculates the vector field strength of the magnetic field generated at any point in space by a static current flowing through a planar coil. **
+**This tool calculates the vector field strength of the magnetic field generated at any point in space by a static current flowing through a planar coil.**
 
 It is available in both MATLAB and Python versions.
 
