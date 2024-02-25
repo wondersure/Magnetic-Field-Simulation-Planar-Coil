@@ -19,4 +19,4 @@ To obtain the magnetic field at a specific location, call the calculate_magnetic
 The MATLAB code consists of a function file and an example of use, whereas the Python version combines both the function and its usage example in a single file. The code is straightforward, with the example demonstrating the field strength produced by a coil fixed at the coordinate center and facing upward on the xz plane.
 
 
-![Image text]([https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder](https://github.com/wondersure/Planar-Coil-Magnetic-Field-Simulation-Python/tree/master/IMG)https://github.com/wondersure/Planar-Coil-Magnetic-Field-Simulation-Python/tree/master/IMG/mag_tense.png)
+![Image](https://github.com/wondersure/Planar-Coil-Magnetic-Field-Simulation-Python/blob/master/IMG/mag_tense.png?raw=true)
